@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f5ee">
+  <meta name="description" content="给正在等一封来信的你。面向校招与实习的 12 道求职情境题，生成你的 Offer 剧情窗口、主角设定和可保存的来信海报。趣味剧情推演，非真实录用预测。">
+  <meta property="og:title" content="Offer 来信局｜测测你什么时候能够拿到 Offer？">
+  <meta property="og:description" content="12 道情境选择，拆开一封关于你的求职剧情来信。">
+  <meta property="og:type" content="website">
+  <meta name="color-scheme" content="light">
+  <title>Offer 来信局｜测测你什么时候能够拿到 Offer？</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css?v=gate-1661-1">
+  <script defer src="config.js?v=gate-1661-1"></script>
+  <script defer src="data.js?v=gate-1661-1"></script>
+  <script defer src="core.js?v=gate-1661-1"></script>
+  <script defer src="poster.js?v=gate-1661-1"></script>
+  <script defer src="app.js?v=gate-1661-1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div class="page-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <button class="brand" data-action="home" aria-label="Offer 来信局首页">
+      <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="4" y="7" width="24" height="18" rx="3" stroke="currentColor" stroke-width="1.7"/><path d="m5 9 11 9L27 9M5 24l8-8m14 8-8-8" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+      <span>Offer <span class="brand-cn">来信局</span><small>GOOD THINGS, ON THE WAY.</small></span>
+    </button>
+    <button class="text-button about-button" data-action="about">关于这封信 <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="main" tabindex="-1"><div class="initial-loading">正在整理你的信纸…</div></main>
+  <footer class="site-footer"><span>给每一个正在认真生活、偶尔刷新邮箱的人。</span><span>AI 辅助创作 · 趣味剧情推演</span></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript-note">这份测试需要开启 JavaScript。你的答案只保存在当前设备，不会上传。</div></noscript>
+</body>
+</html>
